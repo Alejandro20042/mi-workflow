@@ -1,0 +1,12 @@
+usuario:
+  nombre: Ana
+  edad: 22
+  activo: true
+frutas:
+  - manzana
+  - pera
+  - mango
+mensaje: "Hola Mundo"
+descripcion: |
+  Este es un texto
+  con varias líneas.

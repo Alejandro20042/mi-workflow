@@ -17,7 +17,7 @@ jobs:
         run: |
           BRANCH_NAME="${{ github.ref_name }}"
           echo "Verificando nombre de rama: $BRANCH_NAME"
-          
+
           if echo "$BRANCH_NAME" | grep -Eq '^(feature/|bugfix/|hotfix/)'; then
             echo "✅ Nombre de rama válido."
           else
